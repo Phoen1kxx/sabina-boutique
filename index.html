@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sabina Boutique</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabina Boutique - Coming Soon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: linear-gradient(120deg, #f1c6a4, #f7a8b8);
+            color: #333;
+        }
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 700px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            font-weight: 700;
+            color: #5d4f5f;
+            letter-spacing: 2px;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 20px;
+            color: #6f7d7a;
+            margin: 20px 0;
+            font-weight: 300;
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            font-weight: 500;
+            color: #c7b89b;
+            animation: fadeIn 2s ease-in-out 2s;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #9b9b9b;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
 </head>
 <body>
-  <p style="margin-top: 100px; text-align: center; color: #555; font-size: 24px; font-family: 'Arial', sans-serif;">
-    Welcome to SabinaBoutique – A place where elegance meets affordability.
-  </p>
-  <p style="text-align: center; color: #888; font-size: 18px; font-family: 'Arial', sans-serif;">
-    Stay tuned for exciting updates and new arrivals!
-  </p>
-  <p style="text-align: center; color: #aaa; font-size: 16px; font-family: 'Arial', sans-serif;">
-    - Raivis, CEO & Founder
-  </p>
+    <div class="container">
+        <h1>Welcome to Sabina Boutique</h1>
+        <p>We are preparing something special just for you. Stay tuned!</p>
+        <p class="subtitle">Opening soon, and we can't wait to share our world of beauty with you.</p>
+        <div class="footer">
+            <p>- Raivis, CEO & Founder</p>
+        </div>
+    </div>
 </body>
 </html>
+
